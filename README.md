@@ -1,4 +1,4 @@
-# RPI-SIS-Redesign
+# RPI-SIS-Redesign-Min
 A minimalistic version of the Chrome extension that changes the superficial aspects of Rensselaer's Student Information System website.
 
 ## Getting Started
