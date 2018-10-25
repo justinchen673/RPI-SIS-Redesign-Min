@@ -1,0 +1,23 @@
+{
+	"name": "RPI SIS Redesign",
+	"version": "1.0",
+	"description": "An extension that changes the superficial aspects of Rensselaer's Student Information System website.",
+
+	"content_scripts": [
+		{
+			"matches": [
+				"http://sis.rpi.edu/*",
+				"https://sis.rpi.edu/*"
+			],
+			"js": [
+				"js/headerMod.js"
+			],
+			"css": [
+				"css/styles.css"
+			],
+			"run_at": "document_idle"
+		}
+	],
+
+	"manifest_version": 2
+}
